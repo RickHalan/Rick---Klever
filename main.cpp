@@ -8,8 +8,8 @@ Klever
 #include "freertos/task.h" 
 #include "freertos/queue.h"
 
-#define analogPin 3 
-#define ledPin 2
+#define analogPin PA0
+#define ledPin PA5
 
 QueueHandle_t xFila; 
 TaskHandle_t xReadADCHandle, xLedControlHandle, xReadSerialHandle; 
